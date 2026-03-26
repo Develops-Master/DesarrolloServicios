@@ -1,8 +1,8 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Sesion01.Models;
+using Sesion02.Models;
+using System.Diagnostics;
 
-namespace Sesion01.Controllers
+namespace Sesion02.Controllers
 {
     public class HomeController : Controller
     {
@@ -20,13 +20,6 @@ namespace Sesion01.Controllers
 
         public IActionResult Privacy()
         {
-            return View();
-        }
-
-        public IActionResult Ejemplo()
-        {
-            ViewBag.nombre = "Juan";
-            ViewBag.ubicacion = "Madrid";
             return View();
         }
 
